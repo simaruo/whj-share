@@ -1,0 +1,97 @@
+*{margin:0;padding:0;}
+body,button,input,select,textarea {font:12px/1.5 'microsoft yahei',arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;color:#666;outline:0;}
+img{border:0;}
+a {color:#000;text-decoration:none;}
+a:hover{text-decoration:none;color:#428bca;}
+a:focus,*:focus {outline:none;}
+.clrfix { display:block;*display:inline-block;}
+.clrfix:after { content:".";display:block;height:0;clear:both;visibility:hidden;}
+em,i{font-style:normal;}
+b{font-weight:normal;}
+ul, ol, dl { list-style: none }
+li{*list-style:outside;} 
+.mrt-5{margin-top:5px;}
+.mrt-10{margin-top:10px;}
+.mrt-15{margin-top:15px;}
+.no-border{border:0 !important;}
+.no-border-right{border-right:0 !important;}
+.first-color{color:#e60d10;}
+.border-1{border:1px solid #d0d0d0;border-radius:6px;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.fl{float:left;}
+.fr{float:right;}
+.hidden{overflow:hidden;}
+.h210{height:210px;}
+.w1000{width:1000px;margin-left:auto;margin-right:auto;}
+.header .w1000{height:110px;}
+.web-name{text-align:center;font-size:26px;color:#d71619;padding-top:25px;}
+.web-name-remake{color:#909291;text-align:center;font-size:14px;}
+.slider {background:url(../images/best.jpg) no-repeat top center;height:540px;}
+.main .w1000{overflow:hidden;}
+.main-left{width:705px;}
+.main-right{width:285px;}
+.work-type{padding:15px 5px;}
+.work-type.h210{padding:25px 15px;}
+.work-type .img-a{position:absolute;display:block;width:315px;height:210px;left:15px;top:25px;background-color:#eee;background: url(../images/work_state.jpg)}
+.work-type.h210 .content{width:335px;float:right;}
+.content .title{font-size:18px;position:relative;border-bottom:1px solid #ccc;padding:2px 30px;}
+.content .title.no-tle{border:0;padding:0;}
+.content .title:after{left:15px;top:4px;position:absolute;content:"";width:4px;height:21px;background-color:#e60d10;display:block;}
+.content .title.no-tle:after{display:none;}
+.title .more{font-size:12px;background-color:#ecebec;padding:3px 12px;border-radius:10px;border:1px solid #b4b4b4;color:#666;position:absolute;right:0;top:0;}
+.list-a{display:block;padding-right:55px;position:relative;line-height:30px;}
+.list-a .tle{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.list-a .date{position:absolute;right:5px;top:0;color:#666;}
+.list-div.list-pl{padding:0 10px 0 30px;}
+.list-pl .list-a:before{content:"";position:absolute;display:block;left:-15px;;top:12px;width:5px;height:5px;border:1px solid #ccc;border-radius:5px;}
+.list-red .list-a:before{background:url(../images/icons.png) no-repeat -5px -38px;content:"";display:block;position:absolute;left:-15px;top:9px;width:9px;height:11px;border:0;}
+.two-flew .work-type{width:336px;}
+.facility-slider{padding:0 18px;}
+.facility-slider a{float:left;display:inline-block;width:205px;margin:10px 0 0 10px;}
+.facility-slider a img{width:205px;height:130px;background-color:#ddd;}
+.facility-slider a span{display:block;text-align:center;}
+.facility-slider .slider-span{cursor:pointer;top:75px;display:inline-block;position:absolute;background-image:url(../images/icons.png);background-repeat:no-repeat;width:18px;height:25px;}
+.facility-slider .slider-left{left:0;background-position:-3px -2px;}
+.facility-slider .slider-right{right:0;background-position:-35px -2px;}
+.slider-wrap{overflow:hidden;}
+.paihang .title{text-align:center;font-size:16px;padding:10px 0;}
+.three-menu{background-color:#f3f3f3;overflow:hidden;}
+.three-menu a{display:inline-block;float:left;width:93px;height:28px;text-align:center;line-height:28px;border:1px solid #d7d7d7;margin-left:-1px;border-bottom:1px solid #ff8f91;}
+.three-menu a.active{border-bottom-color:#e60d10;background-color:#333;color:#fff;}
+.paihang-items{padding:10px;}
+.paihang-items>a{padding-left:35px;position:relative;display:block;line-height:35px;border-bottom:1px dashed #ccc;}
+.paihang-items>a:before{background:url(../images/icons.png) no-repeat -5px -38px;content:"";display:block;position:absolute;left:10px;top:12px;width:8px;height:11px;}
+.paihang-items>a em{padding-right:8px;}
+.four-menu{overflow:hidden;}
+.four-menu a{display:block;float:left;width:140px;height:60px;line-height:60px;color:#fff;text-align:center;font-size:14px;margin:10px 0 0 0;}
+.four-menu .game_earth,.four-menu .game_metting{position:relative;left:12px;}
+.tousu{background-color:#f5f5f5;}
+.tousu p{color:#f07b8a;font-size:18px;text-align:center;padding:10px 0;}
+.one-menu{height:60px;position:relative;padding:0 0 0 120px;color:#fff;display:block;line-height:60px;font-size:22px;margin-top:15px;}
+.one-menu:before{background-image:url(../images/icons.png);background-repeat:no-repeat;content:"";display:block;position:absolute;}
+.woyaozixun{background-color:#68cba5;}
+.woyaozixun:before{background-position:-70px -2px;width:46px;height:47px;left:60px;top:5px;}
+.minyizhengji{background-color:#f07965;}
+.minyizhengji:before{background-position:-123px -2px;width:46px;height:47px;left:60px;top:7px;}
+.shujuchaxun{background-color:#57acc1;}
+.shujuchaxun:before{background-position:-176px -2px;width:46px;height:47px;left:60px;top:7px;}
+.footer{background-color:#fafafa;border-top:4px solid #e60d10;height:120px;margin-top:15px;text-align:center;}
+.f-menu{overflow:hidden;display:inline-block;padding-top:15px;}
+.f-menu a{float:left;display:inline-block;padding:0 20px;position:relative;color:#7d337d;}
+.f-menu a.before-right:before{position:absolute;content:"";display:block;width:1px;height:12px;background-color:#7d337d;right:0;top:2px;}
+.htp{right:0;top:30px;}
+.ht{height:19px;line-height:19px;padding-left:130px;overflow:hidden;}
+.ht .a{position:absolute;left:0;top:0;display:inline-block;width:127px;height:19px;background:url(../images/icons.png) no-repeat -5px -72px;}
+.ht .lan{cursor:pointer;display:inline-block;float:left;padding:0 8px;position:relative;}
+.ht .lan:before{content:"";display:block;position:absolute;right:0;top:2px;width:1px;height:13px;background-color:#660066;}
+.lan.no-before:before{display:none;}
+.htp input{border:1px solid #bbb;border-radius:10px;width:100%;margin:8px 0 0 -20px;background-color:#fbfbfb;}
+
+
+
+
+
+
+
+
